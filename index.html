@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <script src="./js/main.js"></script> -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery.js"></script>
+    <title>International Currency Exchange Application</title>
+</head>
+<body>  
+    <div class="container">
+        <form id="form1">
+            <div id="header">
+                <h1>INTERNATIONAL <br>EXCHANGE OFFICE</h1>
+            </div>
+    
+            <div id="main1">
+                <div class="selectInfo">
+                    <label>Select Currency</label>
+                    <br>
+                    <select id="Option">
+                        <option></option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="France">France</option>
+                    </select>
+                </div>
+                
+                <div class="rateInfo" id="Radio">
+                    <input type="text" id="CADToSelect">
+                    <br>
+                    <br>
+                    <br>
+                    <input type="text" id="SelectToCAD">
+                </div>
+            </div>
+    
+            <div id="main2">
+                <label>Conversion:</label>
+                <br>
+                <br>
+                <input type="radio" name="conversionSelect" id="radio1" disabled="disabled">
+                <input type="text" id="ConToOther">
+                <br>
+                <br>
+                <input type="radio" name="conversionSelect" id="radio2" disabled="disabled">
+                <input type="text" id="ConToCad">
+            </div>
+    
+            <div id="footer">
+                <input type="text" id="setNumber">
+                <input type="text" id="unit">
+                <input type="submit" value="Convert >>" id="convert" disabled="disabled">
+                <input type="text" id="unit2">
+                <input type="text" id="result">
+                <br>
+                <input type="reset" value="Reset" id="reset">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,75 @@
+.container{
+    background-color: rgb(181, 250, 217);
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    border: 1px solid #ccc;
+    padding: 5px 3px;
+}
+
+#header h1{
+    border: 2px solid #ccc;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#main1{
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 50px;
+}
+
+.selectInfo{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#option{
+    width: 120px;
+    margin-top: 20px;
+}
+
+#Option{
+    width: 120px;
+}
+
+.rateInfo{
+    float: right;
+    margin-right: 200px;
+    width: 200px;
+}
+
+.rateInfo input{
+    width: 350px;
+}
+
+#main2{
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 50px;
+}
+
+#main2 label{
+    margin-left: 45px;
+}
+
+#main2 input[type="text"]{
+    width: 300px;
+}
+
+#footer{
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer input[type="reset"]{
+    margin:auto;
+    width: 100px;
+    margin-top: 10px;
+}
